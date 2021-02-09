@@ -1,13 +1,13 @@
 .header{
     overflow: hidden;
-    background-color: #cacaca;
+    background-color:#dbdfe9;
     border-radius: 5px;
     padding: 20px 10px;
 }
 
 .header a {
     float: left;
-    color: black;
+    color:darkblue;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -24,14 +24,14 @@
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddd;
+    background-color: #1f9bee;
     border-radius: 5px;
     color: black;
   }
   
   /* Style the active/current link*/
   .header a.active_nav {
-    background-color: rgb(87, 87, 87);
+    background-color: #1f9bee;
     border-radius: 5px;
     color: white;
   }
@@ -95,11 +95,12 @@
     }
   }
 
-
+/*Main page*/
 a{
     text-decoration: none;
 }
 
+/*To have a grid with 3 columns*/
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -130,37 +131,19 @@ a{
   padding-right: 100px;
 }
 
-.img-text-wrapper .subtitle {
-  transition: 1s;
-  color: transparent;
-}
-
-.image-blur {
-  transition: 1s;
-  filter: brightness(10%);
-}
 
 .img-text-wrapper:hover .subtitle {
   color: darkblue;
-  font-weight: 600;
+  font-weight: 800;
 }
 
+/* To add a space between the text and the images */
 .logo-wrapper img {
-  width: 60%;
-  margin-bottom: 20px;
-}
-
-.two-column-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
 }
 
 .profile-image-wrapper img {
   width: 100%;
-}
-
-.profile-content-wrapper {
-  padding: 30px;
 }
 
 .profile-content-wrapper h1 {
